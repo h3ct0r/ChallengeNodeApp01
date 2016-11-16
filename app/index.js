@@ -14,7 +14,7 @@ if (cluster.isMaster) {
 	var app = express();
 
 	app.get('/', function (req, res) {
-    	res.send('Hello World!');
+    	res.send('Hello World version2!');
 	});
 
 	app.listen(3000, function () {
